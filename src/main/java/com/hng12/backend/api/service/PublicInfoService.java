@@ -14,7 +14,7 @@ public class PublicInfoService {
         PublicInfo publicInfo = new PublicInfo();
         publicInfo.setEmail("harkinsam247@gmail.com");
         publicInfo.setCurrent_datetime(DateTimeFormatter.ISO_INSTANT.format(Instant.now()));
-        publicInfo.setGithub_url("https://github.com/Harkinsam/hng12-stage0-backend-api");
+        publicInfo.setGithub_url("https://github.com/Harkinsam/hng12-stage0.git");
         return publicInfo;
     }
 
